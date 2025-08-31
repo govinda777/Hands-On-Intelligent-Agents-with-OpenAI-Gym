@@ -3,6 +3,8 @@
 
 # Hands-on Intelligent Agents with OpenAI Gym (HOIAWOG)
 
+> **Note**: This repository now includes Jupyter notebooks for some chapters to make the code more interactive and easier to run. You can find them in the `notebooks` directory within each chapter folder.
+
 The Book          |  Examples of agents you will learn to develop
 :-------------------------:|:-------------------------:
 [<img src="https://static.packt-cdn.com/products/9781788836579/cover/smaller" /></br>](https://www.packtpub.com/big-data-and-business-intelligence/hands-intelligent-agents-openai-gym) [ Topics Covered](https://praveenp.com/hands-on-intelligent-agents-with-openai-gym-hoiawog/)|  [![](https://user-images.githubusercontent.com/4770482/149641959-4685b4bb-6402-44df-a2d8-95a13b21d328.gif)](https://praveenp.com/deeprl/2018/12/12/hoiawog.html)
@@ -15,8 +17,8 @@ The Book          |  Examples of agents you will learn to develop
 (Click to learn more)
 - Chapter 1: Introduction to Intelligent Agents and Learning Environments :space_invader:
 - Chapter 2: Reinforcement Learning and Deep Reinforcement Learning 
-- [Chapter 3: Getting started with OpenAI Gym and Deep Reinforcement Learning](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch3)
-- [Chapter 4: Exploring the Gym and its features](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch4)
+- [Chapter 3: Getting started with OpenAI Gym and Deep Reinforcement Learning](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch3) ([Jupyter Notebooks](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch3/notebooks))
+- [Chapter 4: Exploring the Gym and its features](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch4) ([Jupyter Notebooks](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch4/notebooks))
 - [Chapter 5: Implementing your first learning agent -- Solving the Mountain Car problem](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch5)
 - [Chapter 6: Implementing an Intelligent Agent for Optimal Control using Deep Q Learning](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch6)
 - [Chapter 7: Creating custom OpenAI gym environments - Carla driving simulator](https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym/tree/master/ch7)
