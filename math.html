@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Foundations of RL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mathematical Foundations of Reinforcement Learning</h1>
+        <p><a href="index.html">Back to Home</a></p>
+    </header>
+    <main>
+        <section id="intro">
+            <p>This chapter delves into the core mathematical concepts that form the bedrock of Reinforcement Learning. Understanding these principles is crucial for designing and implementing effective intelligent agents.</p>
+        </section>
+
+        <section id="concepts">
+            <h2>Key Concepts</h2>
+
+            <h3>Markov Decision Processes (MDPs)</h3>
+            <p>A Markov Decision Process is a mathematical framework for modeling decision-making in situations where outcomes are partly random and partly under the control of a decision-maker. An MDP is defined by:</p>
+            <ul>
+                <li>A set of states (S)</li>
+                <li>A set of actions (A)</li>
+                <li>A transition probability function P(s'|s, a)</li>
+                <li>A reward function R(s, a, s')</li>
+                <li>A discount factor (γ)</li>
+            </ul>
+
+            <h3>The Bellman Equation</h3>
+            <p>The Bellman equation is a fundamental concept in RL that expresses the relationship between the value of a state and the values of its successor states.</p>
+            <p>For a given policy π, the value of a state <code>s</code> is given by:</p>
+            <pre><code>Vπ(s) = E[Rt+1 + γVπ(St+1) | St=s]</code></pre>
+            <p>The optimal value function <code>V*(s)</code> is defined by the Bellman optimality equation:</p>
+            <pre><code>V*(s) = max_a E[Rt+1 + γV*(St+1) | St=s, At=a]</code></pre>
+            <p>This can be rewritten as:</p>
+            <pre><code>V*(s) = max_a Σ_{s'} P(s'|s, a) [R(s, a, s') + γV*(s')]</code></pre>
+
+            <h3>Value Iteration and Policy Iteration</h3>
+            <ul>
+                <li><strong>Value Iteration</strong>: An algorithm that iteratively updates the value function until it converges to the optimal value function.</li>
+                <li><strong>Policy Iteration</strong>: An algorithm that alternates between policy evaluation and policy improvement to find the optimal policy.</li>
+            </ul>
+            <p>These concepts are the building blocks for many RL algorithms, from Q-learning to modern Deep RL methods. A solid grasp of this math is essential for the chapters that follow.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Content from Chapter 2.1 of "Hands-on Intelligent Agents with OpenAI Gym"</p>
+    </footer>
+</body>
+</html>
